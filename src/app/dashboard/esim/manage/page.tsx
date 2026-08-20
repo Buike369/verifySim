@@ -4337,7 +4337,7 @@ export default function ManageEsimPage() {
       {/* ACTIVATION MODAL */}
       {/* ===================================================== */}
 
-      {showActivation && (
+      {/* {showActivation && (
         <ActivationModal
           esim={selectedEsim}
           copied={copied}
@@ -4351,7 +4351,7 @@ export default function ManageEsimPage() {
             setShowActivation(false)
           }
         />
-      )}
+      )} */}
 
     </main>
   );
