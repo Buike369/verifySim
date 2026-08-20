@@ -98,7 +98,7 @@ export default function ReferralLandingPage() {
     <>
       <Navbar />
 
-      <main className="min-h-screen bg-[#f7f9fc] text-[#071B4D]">
+      <main className="min-h-screen bg-[#f7f9fc] text-[#071B4D] pt-12">
         {/* ===================================================== */}
         {/* HERO */}
         {/* ===================================================== */}

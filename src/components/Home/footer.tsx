@@ -23,10 +23,10 @@ import { FaXTwitter } from "react-icons/fa6";
 
 
 const products = [
-  "Verification Numbers",
-  "Data Only eSIM",
-  "Global Plans",
-  "Business Solutions",
+  { name:"Verification Numbers", href:"/verification-numbers"},
+  { name:"Data Only eSIM", href:"/esim"},
+  { name:"Global Plans", href:"/about-us"},
+  { name:"Referral Program", href:"/referral"},
 ];
 
 
@@ -89,7 +89,7 @@ px-5
 sm:px-8
 lg:px-10
 pt-16
-pb-8
+pb-8B
 "
 >
 
@@ -239,16 +239,18 @@ text-[#848d99]
 >
 
 {
-products.map((item)=>(
+products.map((item,id)=>(
 <li
-key={item}
+key={id}
 className="
 hover:text-black
 cursor-pointer
 transition
 "
 >
-{item}
+  <a href={item.href}>
+{item.name}
+</a>
 </li>
 ))
 }

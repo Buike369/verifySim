@@ -1507,7 +1507,7 @@ export default function VerificationNumbers() {
         </section>
 
         {/* HOW IT WORKS */}
-        <section className="bg-[#064eac] py-20 text-white">
+        <section className="bg-[#071b4d] py-20 text-white">
           <div className="mx-auto max-w-7xl px-5 sm:px-8 lg:px-10">
             <div className="mx-auto max-w-2xl text-center">
               <p className="text-sm font-semibold text-blue-300">

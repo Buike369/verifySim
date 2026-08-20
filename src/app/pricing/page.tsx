@@ -1092,7 +1092,7 @@ export default function PricingPage() {
     <>
       <Navbar />
 
-      <main className="min-h-screen bg-[#f7f9fc]">
+      <main className="min-h-screen bg-[#f7f9fc] pt-12">
         {/* =====================================================
             HERO
         ===================================================== */}

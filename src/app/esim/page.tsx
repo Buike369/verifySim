@@ -1168,7 +1168,7 @@ export default function EsimPage() {
                   Global eSIM Connectivity
                 </div>
 
-                <h1 className="mt-7 max-w-4xl text-4xl font-bold leading-[1.08] tracking-tight text-[#071B4D] sm:text-5xl lg:text-6xl">
+                <h1 className="mt-7 max-w-4xl text-4xl font-bold leading-[1.08] tracking-tight text-[#000] sm:text-5xl lg:text-6xl">
                   Stay connected
                   <span className="text-[#1a73e8]"> anywhere </span>
                   in the world.
@@ -1233,7 +1233,7 @@ export default function EsimPage() {
 
               {/* HERO CARD */}
               <div className="relative mx-auto w-full max-w-md">
-                <div className="rounded-[2rem] border border-white/70 bg-[#071B4D] p-6 shadow-2xl shadow-blue-200/50 sm:p-8">
+                <div className="rounded-[2rem] border border-white/70 bg-[#1a73e8] p-6 shadow-2xl shadow-blue-200/50 sm:p-8">
                   <div className="flex items-center justify-between">
                     <div>
                       <p className="text-sm text-blue-200">
